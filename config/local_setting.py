@@ -1,6 +1,6 @@
 DEBUG = True
 
 SQLALCHEMY_ECHO = True
-SQLALCHEMY_DATABASE_URI = 'mysql://root:shuguang.wang@45.77.47.173/mysql'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:shuguang.wang@45.77.47.173/food_db'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ENCODING = "utf_8"
